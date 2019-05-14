@@ -7,7 +7,7 @@ public class HelloController {
 
 
 	
-    @RequestMapping("/test")
+    @RequestMapping("/")
     public String index() {
     	
       	String name = "testing lb";
