@@ -11,7 +11,7 @@ public class HelloController {
 	@RequestMapping(value = "/test", method = RequestMethod.GET, produces = "application/json")
     public String index() {
     	
-      	String name = "testing lb";
+      	String name = "1";
         return name;
     }
 
